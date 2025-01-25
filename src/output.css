@@ -803,6 +803,10 @@ video {
     width: 30%;
   }
 
+  .xl\:w-\[0\%\] {
+    width: 0%;
+  }
+
   .xl\:max-w-\[1250px\] {
     max-width: 1250px;
   }
@@ -877,6 +881,14 @@ video {
 
   .xl\:text-\[40px\] {
     font-size: 40px;
+  }
+
+  .xl\:text-\[5px\] {
+    font-size: 5px;
+  }
+
+  .xl\:text-\[45px\] {
+    font-size: 45px;
   }
 
   .xl\:text-\[px\] {
