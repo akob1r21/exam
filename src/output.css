@@ -559,6 +559,11 @@ video {
   margin-bottom: 3rem;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .flex {
   display: flex;
 }
@@ -591,8 +596,16 @@ video {
   width: 29%;
 }
 
+.w-\[90\%\] {
+  width: 90%;
+}
+
 .flex-col {
   flex-direction: column;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
 }
 
 .items-center {
@@ -621,6 +634,10 @@ video {
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-7 {
+  gap: 1.75rem;
 }
 
 .rounded-\[5px\] {
@@ -702,6 +719,10 @@ video {
   font-size: 18px;
 }
 
+.text-\[26px\] {
+  font-size: 26px;
+}
+
 .font-\[400\] {
   font-weight: 400;
 }
@@ -729,6 +750,11 @@ video {
     margin-right: auto;
   }
 
+  .xl\:my-12 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
   .xl\:block {
     display: block;
   }
@@ -753,12 +779,24 @@ video {
     width: 200px;
   }
 
+  .xl\:w-\[40\%\] {
+    width: 40%;
+  }
+
+  .xl\:w-\[48\%\] {
+    width: 48%;
+  }
+
   .xl\:max-w-\[1250px\] {
     max-width: 1250px;
   }
 
   .xl\:max-w-\[850px\] {
     max-width: 850px;
+  }
+
+  .xl\:max-w-\[1200px\] {
+    max-width: 1200px;
   }
 
   .xl\:flex-row {
@@ -803,6 +841,10 @@ video {
 
   .xl\:text-\[2px\] {
     font-size: 2px;
+  }
+
+  .xl\:text-\[40px\] {
+    font-size: 40px;
   }
 
   .xl\:text-\[px\] {
